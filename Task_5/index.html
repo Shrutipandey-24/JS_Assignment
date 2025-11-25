@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Product Filter</h2>
+
+   
+    <button onclick="filterProducts('all')">All</button>
+    <button onclick="filterProducts('electronics')">Electronics</button>
+    <button onclick="filterProducts('clothing')">Clothing</button>
+
+    
+    <br><br>
+    <input type="text" id="searchBox" placeholder="Search products..." onkeyup="searchProducts()">
+
+   
+    <ul id="productList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

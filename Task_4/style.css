@@ -1,0 +1,36 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial;
+}
+
+.form-container {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    height: 16px;
+    margin-bottom: 10px;
+}
+
+.success {
+    border-color: green;
+}
+
+.fail {
+    border-color: red;
+}
